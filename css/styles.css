@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 4rem;
+  font-size: 2rem;
+  background-color: black;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+main {
+  background-color: mintcream;
+  padding: 2rem;
+  border: 2px solid black;
+  margin: 1rem;
+  border-radius: 1rem;
+  font-size: 3rem;
+}
+
+input, button {
+  font-size: 2rem;
+}
+
+#input-area, #output-area {
+  text-align: center;
+  padding: 2rem;  
+}
+
+#input-area {
+  display: flex;
+  flex-direction: column;
+}
+
+#output-area {
+  transition: all 500ms ease;
+  min-height: 12rem;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+.hidden {
+  opacity: 0;
+}
